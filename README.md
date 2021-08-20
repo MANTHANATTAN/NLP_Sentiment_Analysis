@@ -1,17 +1,7 @@
-EE626
-Recommendation Engine
-
-Krishn Kanhaiya Tikmani
-Abhishek Bajpai
-Mujahid Bari
-Akshat Purohit
+# Fine Grained Sentiment Analysis of Movie Review
 
 
-Files and their Content Summary
-
-Fine Grained Sentiment Analysis Part
-
-In FineGrainedSenti Folder
+### Files and their Content Summary
 
 - classifier.py - It containes the classes that are defined for logistic regression and svm for training and testing purpose.
 
@@ -29,7 +19,7 @@ In FineGrainedSenti Folder
 
 - requirements.txt - dependecies of the code for fine grained sentiment analysis
 
-To run the web app on local network
+#### To run the web app on local network
 
 First, set up virtual environment and install from ```requirements.txt```:
 
@@ -46,16 +36,6 @@ Now for running the file predictor.py to get the confusion matrix, f1_score and 
 In terminal write
 
 python3 predictor.py --method logistic svm
-
-
-Movie Recommender Part
-
-In the recommendation folder in codes&results
-
-- movie_recommender_system.ipynb and movie_recommender_system.py is the code file
-- the result is stored as Results.pdf file with cells runned
-- Data Folder consist of the used data for this part
-
 
 
 
