@@ -3,7 +3,7 @@
 
 ### Files and their Content Summary
 
-- classifier.py - It containes the classes that are defined for logistic regression and svm for training and testing purpose.
+- classifiers.py - It contains the classes that are defined for logistic regression and svm for training and testing purpose.
 
 - plotter.py - It contains the code for plotting the confusion matrix.
 
@@ -13,19 +13,25 @@
 
 - app.py - The backend flask code for running the website
 
-- static and template folder consist of the HTML and CSS file for the website 
-
-- data folder contains the SST-5 training, testing and developing data used for the analysis
+- data folder contains the SST-5 (Stanford dataset) training, testing and developing data used for the analysis
 
 - requirements.txt - dependecies of the code for fine grained sentiment analysis
 
 #### To run the web app on local network
 
 First, set up virtual environment and install from ```requirements.txt```:
-
+<br>
+    ```
     python3 -m venv venv
+    ```
+    <br>
+    ```
     source venv/bin/activate
+    ```
+    <br>
+    ```
     pip3 install -r requirements.txt
+    ```
 
 Then simply,
 
